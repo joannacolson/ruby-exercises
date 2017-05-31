@@ -9,3 +9,11 @@
 # > Hello there
 # > Hello there
 # > Hello there
+def p_times(statement, num)
+  num.times do
+    puts statement
+    # puts num    will output the num to the console
+  end
+end
+
+p_times('Hello there', 3)
